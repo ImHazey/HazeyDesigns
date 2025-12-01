@@ -306,6 +306,8 @@ a {
     color: #9aa7d0;
 }
 
+/* Discord section inherits everything above – no changes needed */
+
 /* Contact */
 .contact-grid {
     display: grid;
@@ -331,35 +333,11 @@ a {
     border: 1px solid rgba(25, 227, 255, 0.2);
 }
 
-.contact-form label {
-    display: block;
-    font-size: 0.85rem;
-    margin-bottom: 0.9rem;
-}
-
-.contact-form input,
-.contact-form textarea {
-    width: 100%;
-    margin-top: 0.25rem;
-    padding: 0.55rem 0.7rem;
-    border-radius: 0.6rem;
-    border: 1px solid #20263a;
-    background: #040711;
-    color: #f5f7ff;
-    font-family: inherit;
-    font-size: 0.9rem;
-}
-
-.contact-form input:focus,
-.contact-form textarea:focus {
-    outline: 1px solid #19e3ff;
-    border-color: #19e3ff;
-}
-
-.form-note {
-    margin-top: 0.6rem;
-    font-size: 0.8rem;
-    color: #98a7d0;
+/* ⭐ NEW: Clean button layout instead of form */
+.contact-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
 }
 
 /* Footer */
